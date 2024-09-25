@@ -70,7 +70,7 @@ const App = () => {
                     value={userInput}
                     onChange={(e) => updateInput(e.target.value)}
                 />
-                <button className='text-xl py-3 px-6 bg-[#4caf50] text-white border-none rounded-lg cursor-pointer'
+                <button className='text-xl py-3 px-6 bg-purple-500 text-white border-none rounded-lg cursor-pointer'
                     onClick={handleAction}
                 >
                     {editIndex !== null ? 'Update' : 'ADD'}
